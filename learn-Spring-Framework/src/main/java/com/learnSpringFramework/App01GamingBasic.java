@@ -3,7 +3,7 @@ package com.learnSpringFramework;
 import com.learnSpringFramework.game.GameRunner;
 import com.learnSpringFramework.game.Pacmangame;
 
-public class AppGamingBasic {
+public class App01GamingBasic {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
