@@ -1,7 +1,7 @@
 package com.learnSpringFramework.game;
 
 public class GameRunner {
-	MarioGame marioGame;
+	private MarioGame marioGame;
 
 	public GameRunner(MarioGame marioGame) {
 		// TODO Auto-generated constructor stub
