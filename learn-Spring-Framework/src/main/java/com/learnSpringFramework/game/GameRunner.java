@@ -1,20 +1,20 @@
 package com.learnSpringFramework.game;
 
 public class GameRunner {
-	private MarioGame marioGame;
+	private GamingConsole game;
 
-	public GameRunner(MarioGame marioGame) {
+	public GameRunner(GamingConsole game) {
 		// TODO Auto-generated constructor stub
-		this.marioGame = marioGame;
+		this.game = game;
 	}
 
 	public void run() {
 		// TODO Auto-generated method stub
-		System.out.println("Running game " + marioGame);
-		marioGame.up();
-		marioGame.down();
-		marioGame.left();
-		marioGame.right();
+		System.out.println("Running game " + game);
+		game.up();
+		game.down();
+		game.left();
+		game.right();
 
 	}
 
